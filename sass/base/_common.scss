@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    color: var(--logo-color);
+    font-family: 'Roboto';
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    background-color: var(--primary-white-color);
+
+&.no-scroll {
+    overflow: hidden;
+}
+}

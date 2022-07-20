@@ -1,0 +1,24 @@
+.contact__nav {
+    display: flex;
+    margin-left: auto;
+}
+
+.contact__nav__item {
+    margin-right: 50px;
+
+    &:last-child {
+        margin-right: 0px;
+    }
+}
+
+.contact__nav__link {
+    display: flex;
+    align-items: center;
+    padding: 32px 0;
+    color: var(--primary-text-color);
+}
+
+.contact__nav__icon {
+    margin-right: 10px;
+    fill: currentColor;
+}

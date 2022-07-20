@@ -1,0 +1,15 @@
+@mixin fonts($fs, $lh, $ta, $mb) {
+    font-size: $fs;
+    line-height: $lh;
+    text-align: $ta;
+    margin-bottom: $mb;
+}
+
+@mixin avatar($size, $circle: false) {
+    width: $size;
+    height: $size;
+
+    @if $circle {
+        border-radius: calc($size / 2);
+    }
+}
