@@ -12,4 +12,15 @@
 
 .contacts {
   display: flex;
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 }

@@ -1,13 +1,19 @@
 .about {
-    @extend %section;
+@media screen and (min-width: 320px) and (max-width: 1199px) {
+    display: none;
+    }
     
-    padding-top: 0;
-
+@media screen and (min-width: 1200px) {
+    padding-top: 0px;
+    padding-bottom: 94px;
+    }
+    
 &__list {
-     display: flex;
+    display: flex;
     justify-content: space-between;
+    gap: 30px;
 }
-    
+
  &__work {
     position: relative;
 }

@@ -1,3 +1,9 @@
 .title {
-    @include fonts(36px, 1.17, center, 50px);
+@media screen and (min-width: 480px),(min-width: 768px){
+@include fonts(28px, 1.18, center, 30px);
+    }
+
+@media screen and (min-width: 1200px){
+@include fonts(36px, 1.17, center, 50px);
+}
 }
