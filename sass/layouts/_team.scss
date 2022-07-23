@@ -1,7 +1,7 @@
 .team {
     background: var(--bg-color);
 
-@media screen and (min-width: 480px), (min-width: 768px) {
+@media screen and (min-width: 480px) and (max-width: 1199px) {
     padding-top: 60px;
     padding-bottom: 60px;
     }
@@ -15,6 +15,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
     gap: 30px;
  }
     
@@ -24,21 +25,18 @@
     border-radius: 0px 0px 4px 4px;
  }
     
-&__item:nth-child(4n) {
-    margin-right: 0px;
-}
-    
 &__name {
-    margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
+    margin-bottom: 10px;
 }
     
 &__position {
-    margin-bottom: 16px;
-    color: var(--primary-text-color);
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
+    margin-bottom: 16px;
+    color: var(--primary-text-color);
 }
 }
