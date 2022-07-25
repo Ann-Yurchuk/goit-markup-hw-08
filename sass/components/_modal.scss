@@ -1,13 +1,22 @@
 .modal {
     position: absolute;
-    max-width: 528px;
-    min-height: 581px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: var(--primary-white-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
+    z-index: 10000;
+
+    @media screen and (min-width: 480px) {
+    min-width: 450px;
+    height: 609px;
+    }
+
+@media screen and (min-width: 1200px) {
+    max-width: 528px;
+    min-height: 581px;
+}
 
 &__btn {
     position: absolute;
@@ -16,7 +25,6 @@
     width: 30px;
     height: 30px;
     padding: 0;
-    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,7 +34,6 @@
     background-color: var(--primary-white-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     cursor: pointer;
-    
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     
