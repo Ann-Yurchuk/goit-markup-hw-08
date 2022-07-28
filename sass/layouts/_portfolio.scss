@@ -1,5 +1,10 @@
 .portfolio {
-    @extend %section;
-    
-    background-color: var(--primary-white-color);
+background-color: var(--primary-white-color);
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+@extend %section;
 }

@@ -1,14 +1,17 @@
 .form {
-    padding: 40px;
+    padding: 30px;
+    min-width: 100%;
 
 @media screen and (min-width: 480px) and (max-width: 1199px) {
-    min-width: 450px;
-    min-height: 609px;
+    max-width: 450px;
+    max-height: 609px;
+    padding: 40px;
     }
 
 @media screen and (min-width: 1200px) {
-    min-width: 448px;
-    min-height: 581px;
+    max-width: 448px;
+    max-height: 581px;
+    padding: 40px;
 }
 
 &__title {
@@ -17,7 +20,7 @@
     font-size: 20px;
     color: var(--secondary-text-color);
 
-@media screen and (min-width: 480px) and (max-width: 1199px) {
+@media screen and (min-width: 320px) and (max-width: 1199px) {
         line-height: 1.5;
         text-align: center;
     }
