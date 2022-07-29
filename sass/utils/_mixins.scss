@@ -9,7 +9,7 @@
     width: $size;
     height: $size;
 
-    @if $circle {
-        border-radius: calc($size / 2);
-    }
+@if $circle {
+    border-radius: calc($size / 2);
+}
 }
