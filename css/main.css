@@ -394,7 +394,7 @@ html {
   border-radius: 4px;
   z-index: 1000;
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 480px) and (max-width: 1199px) {
   .modal {
     max-width: 450px;
     height: 96%;
@@ -728,7 +728,7 @@ html {
 }
 @media screen and (min-width: 480px) and (max-width: 1199px) {
   .form {
-    min-width: 98%;
+    max-width: 98%;
     padding: 40px;
   }
 }
