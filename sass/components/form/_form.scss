@@ -1,16 +1,13 @@
 .form {
-    padding: 30px;
-    min-width: 100%;
-
-@media screen and (min-width: 480px) and (max-width: 767px) {
+    max-width: 335px;
     max-height: 100%;
+    padding: 12px;
+
+@media screen and (min-width: 480px) and (max-width: 1199px) {
+    max-height: 100%;
+    max-width: 100%;
     padding: 40px;
     }
-
-@media screen and (min-width: 768px) {
-    max-height: 609px;
-    padding: 40px;
-}
 
 @media screen and (min-width: 1200px) {
     max-width: 528px;
@@ -25,12 +22,14 @@
     text-align: center;
     color: var(--secondary-text-color);
     margin-bottom: 12px;
+    margin-top: 20px;
 
 @media screen and (min-width: 480px) and (max-width: 1199px) {
     font-weight: 700;
     font-size: 20px;
     line-height: 1.5;
     text-align: center;
+    margin-top: 0;
     }
 
 @media screen and (min-width: 1200px) {
